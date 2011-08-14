@@ -19,11 +19,10 @@ import java.util.Map;
 import java.util.Properties;
 
 import org.apache.log4j.Logger;
-import org.apache.velocity.Template;
-import org.apache.velocity.VelocityContext;
-import org.apache.velocity.app.Velocity;
-import org.apache.velocity.exception.ParseErrorException;
-import org.apache.velocity.exception.ResourceNotFoundException;
+
+import freemarker.template.Configuration;
+import freemarker.template.DefaultObjectWrapper;
+import freemarker.template.Template;
 
 /**
  * @author idor(sjbwylbs@gmail.com)
@@ -37,11 +36,12 @@ public class HibernateGenericDaoTool {
 	String domainPath;
 	String beansPath;
 	File rootFile;
-	VelocityContext context = new VelocityContext();
+	Configuration cfg;
 	Domain domain;
 	Properties p;
 	boolean isCoverd = false;
 	//model variable Settings
+	Map<String, Object> datas;
 
 	final static String T_DAO = "Dao";
 	final static String T_DAO_IMPL = "DAOImpl";
@@ -55,17 +55,14 @@ public class HibernateGenericDaoTool {
 
 	public HibernateGenericDaoTool(Domain domain) {
 		log.debug("HibernateGenericDaoTool init");
+	try {	
 		this.domain = domain;
-		File f = new File("src/main/resources/velocity.properties");
-		log.debug("CurrrentPath:exists:" + f.exists() + ",path:" + f.getAbsolutePath());
-		if (f.exists()) {
-			Velocity.init("src/main/resources/velocity.properties");
-		} else {
-			Velocity.init();
-		}
+		cfg = new Configuration();
+		cfg.setDirectoryForTemplateLoading(new File("src/main/resources/templates"));
+		cfg.setObjectWrapper(new DefaultObjectWrapper());
 
 		p = new Properties();
-		try {
+	
 			p.load(new FileInputStream("src/main/resources/typeMapping.properties"));
 		} catch (FileNotFoundException e) {
 			log.warn(e.getMessage());
@@ -92,16 +89,16 @@ public class HibernateGenericDaoTool {
 
 		Template template = null;
 		for (String name : templateNames) {
+
 			try {
-				template = Velocity.getTemplate(name + ".vm");
-				log.debug("find template:" + File.separator + name + ".vm");
-				templates.put(name, template);
-			} catch (ResourceNotFoundException rnfe) {
-				System.out.println("Example : error : cannot find template " + name + ".vm");
-			} catch (ParseErrorException pee) {
-				System.out.println("Example : Syntax error in template " + name + ".vm:" + pee);
+				template = cfg.getTemplate(name + ".ftl");
+			} catch (IOException e) {
+				e.printStackTrace();
 			}
+			log.debug("find template:" + File.separator + name + ".ftl");
+			templates.put(name, template);
 		}
+		datas=new HashMap<String,Object>();
 	}
 
 	public void createBeans() {
@@ -114,14 +111,12 @@ public class HibernateGenericDaoTool {
 			domains.add(domain);
 		}
 
-		if(context.containsKey("domain"))
-		{
-			context.remove("domain");
+		if (datas!=null && datas.containsKey("domain")) {
+			datas.remove("domain");
 		}
-		
-		context.put("domains", domains);
-		context.put("fn",Fn.class);
-		
+
+		datas.put("domains", domains);
+
 		try {
 
 			File outFile = new File(this.getBeansPath());
@@ -148,8 +143,7 @@ public class HibernateGenericDaoTool {
 			 */
 
 			BufferedWriter writer = new BufferedWriter(fw);
-
-			templates.get(T_BEAN_LIST).merge(context, writer);
+			templates.get(T_BEAN_LIST).process(datas, writer);
 			/*
 			 *  flush and cleanup
 			 */
@@ -210,8 +204,8 @@ public class HibernateGenericDaoTool {
 					//domain名
 					//context.put(KEY_domainName, domainName);
 					//domain.setDomainName(domainName);
-					context.put("domain", domain);
-					context.put("time", new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
+					datas.put("domain", domain);
+					datas.put("time", new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
 
 					//循环模版,处理模版
 					for (Map.Entry<String, Template> t : templates.entrySet()) {
@@ -221,8 +215,7 @@ public class HibernateGenericDaoTool {
 							outPath = this.getDaoPath();
 						} else if (t.getKey().matches(T_DAO + "|" + T_DAO_IMPL)) {
 							outPath = this.getServicePath();
-						}
-						else{
+						} else {
 							break;
 						}
 
@@ -259,7 +252,7 @@ public class HibernateGenericDaoTool {
 						BufferedWriter writer = new BufferedWriter(fw);
 
 						if (t.getValue() != null) {
-							t.getValue().merge(context, writer);
+							t.getValue().process(datas, writer);
 						} else {
 							log.debug("You didn't had template " + t.getKey());
 						}

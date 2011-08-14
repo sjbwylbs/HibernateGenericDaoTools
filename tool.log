@@ -1,0 +1,330 @@
+2011-08-14 11:44:54,727 - Log4JLogChute initialized using file 'tool.log'
+2011-08-14 11:44:54,727 - Initializing Velocity, Calling init()...
+2011-08-14 11:44:54,727 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2011-08-14 11:44:54,727 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2011-08-14 11:44:54,727 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2011-08-14 11:44:54,727 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2011-08-14 11:44:54,727 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2011-08-14 11:44:54,727 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2011-08-14 11:44:54,737 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2011-08-14 11:44:54,737 - Do unicode file recognition:  false
+2011-08-14 11:44:54,737 - FileResourceLoader : adding path 'src/main/resources/template'
+2011-08-14 11:44:54,782 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2011-08-14 11:44:54,782 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2011-08-14 11:44:54,782 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2011-08-14 11:44:54,787 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2011-08-14 11:44:54,787 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2011-08-14 11:44:54,787 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2011-08-14 11:44:54,792 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2011-08-14 11:44:54,797 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2011-08-14 11:44:54,797 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2011-08-14 11:44:54,797 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2011-08-14 11:44:54,852 - Created '20' parsers.
+2011-08-14 11:44:54,857 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2011-08-14 11:44:54,857 - Velocimacro : Default library not found.
+2011-08-14 11:44:54,857 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2011-08-14 11:44:54,857 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2011-08-14 11:44:54,857 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2011-08-14 11:44:54,857 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2011-08-14 11:44:54,872 - ResourceManager : found Dao.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2011-08-14 11:44:54,877 - ResourceManager : found DAOImpl.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2011-08-14 11:44:54,877 - ResourceManager : found Service.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2011-08-14 11:44:54,882 - ResourceManager : found ServiceImpl.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2011-08-14 11:44:54,902 - ResourceManager : found applicationContext-beans.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2011-08-14 11:44:55,894 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,929 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,929 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,929 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,929 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,929 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,929 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,929 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,929 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,929 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,929 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,929 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,929 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,929 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,929 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,929 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,929 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,929 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,929 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,929 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,929 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,929 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,929 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,929 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,929 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,934 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,939 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,939 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,939 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,939 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,939 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,939 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,939 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,939 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,939 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:44:55,939 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${application.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,296 - Log4JLogChute initialized using file 'tool.log'
+2011-08-14 11:48:00,296 - Initializing Velocity, Calling init()...
+2011-08-14 11:48:00,296 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2011-08-14 11:48:00,296 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2011-08-14 11:48:00,296 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2011-08-14 11:48:00,296 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2011-08-14 11:48:00,296 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2011-08-14 11:48:00,296 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2011-08-14 11:48:00,306 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2011-08-14 11:48:00,311 - Do unicode file recognition:  false
+2011-08-14 11:48:00,311 - FileResourceLoader : adding path 'src/main/resources/template'
+2011-08-14 11:48:00,332 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2011-08-14 11:48:00,334 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2011-08-14 11:48:00,336 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2011-08-14 11:48:00,337 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2011-08-14 11:48:00,338 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2011-08-14 11:48:00,338 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2011-08-14 11:48:00,340 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2011-08-14 11:48:00,342 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2011-08-14 11:48:00,344 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2011-08-14 11:48:00,345 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2011-08-14 11:48:00,399 - Created '20' parsers.
+2011-08-14 11:48:00,415 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2011-08-14 11:48:00,415 - Velocimacro : Default library not found.
+2011-08-14 11:48:00,415 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2011-08-14 11:48:00,416 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2011-08-14 11:48:00,416 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2011-08-14 11:48:00,416 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2011-08-14 11:48:00,434 - ResourceManager : found Dao.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2011-08-14 11:48:00,436 - ResourceManager : found DAOImpl.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2011-08-14 11:48:00,439 - ResourceManager : found Service.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2011-08-14 11:48:00,442 - ResourceManager : found ServiceImpl.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2011-08-14 11:48:00,448 - ResourceManager : found applicationContext-beans.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2011-08-14 11:48:00,533 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,541 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,541 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,541 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,541 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,541 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,541 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,542 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,542 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,542 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,542 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,542 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,542 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,542 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,542 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,543 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,544 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,544 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,544 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,547 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,547 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,547 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,548 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,548 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,548 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,548 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,549 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,549 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,549 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,549 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,549 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,549 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,549 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,549 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,549 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,549 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,550 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,550 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,550 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,550 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,550 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,550 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,550 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,551 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,551 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,551 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,551 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,551 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,551 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,551 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,551 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,551 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,551 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,552 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,552 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,552 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,552 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,552 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,552 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,552 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,552 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,552 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,553 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,553 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,553 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,553 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,553 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,553 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,554 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,554 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,554 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,554 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,554 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,554 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,554 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,554 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:48:00,554 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,517 - Log4JLogChute initialized using file 'tool.log'
+2011-08-14 11:56:27,517 - Initializing Velocity, Calling init()...
+2011-08-14 11:56:27,517 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2011-08-14 11:56:27,517 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2011-08-14 11:56:27,517 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2011-08-14 11:56:27,517 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2011-08-14 11:56:27,517 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2011-08-14 11:56:27,517 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2011-08-14 11:56:27,532 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2011-08-14 11:56:27,532 - Do unicode file recognition:  false
+2011-08-14 11:56:27,532 - FileResourceLoader : adding path 'src/main/resources/template'
+2011-08-14 11:56:27,557 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2011-08-14 11:56:27,557 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2011-08-14 11:56:27,557 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2011-08-14 11:56:27,557 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2011-08-14 11:56:27,562 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2011-08-14 11:56:27,562 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2011-08-14 11:56:27,562 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2011-08-14 11:56:27,562 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2011-08-14 11:56:27,575 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2011-08-14 11:56:27,577 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2011-08-14 11:56:27,625 - Created '20' parsers.
+2011-08-14 11:56:27,635 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2011-08-14 11:56:27,635 - Velocimacro : Default library not found.
+2011-08-14 11:56:27,635 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2011-08-14 11:56:27,635 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2011-08-14 11:56:27,635 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2011-08-14 11:56:27,635 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2011-08-14 11:56:27,655 - ResourceManager : found Dao.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2011-08-14 11:56:27,660 - ResourceManager : found DAOImpl.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2011-08-14 11:56:27,660 - ResourceManager : found Service.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2011-08-14 11:56:27,670 - ResourceManager : found ServiceImpl.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2011-08-14 11:56:27,678 - ResourceManager : found applicationContext-beans.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2011-08-14 11:56:27,752 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,766 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,766 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,766 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,766 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,766 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,767 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,767 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,767 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,767 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,767 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,767 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,767 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,767 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,768 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,768 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,772 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,772 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,772 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,772 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,772 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,772 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,773 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,773 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,773 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,773 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,773 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,773 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,773 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,773 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,773 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,775 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,775 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,775 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,775 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,776 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,776 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,776 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,776 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,776 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,776 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,776 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,777 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,777 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,777 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,777 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,777 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,777 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,777 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,777 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,777 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,778 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,778 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,778 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,778 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,778 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,778 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,778 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,779 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,779 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,779 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,779 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,779 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,779 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,779 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,779 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,779 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,779 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,779 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,779 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,779 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,779 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,779 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,779 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,779 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,779 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.
+2011-08-14 11:56:27,779 - Null reference [template 'applicationContext-beans.vm', line 5, column 11] : ${display.uncapitalize(${ref})} cannot be resolved.

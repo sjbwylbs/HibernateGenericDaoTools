@@ -2,11 +2,9 @@ package com.ijqg.test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import com.ijqg.tools.CurrentDirectory;
 import com.ijqg.tools.Domain;
 import com.ijqg.tools.HibernateGenericDaoTool;
 
@@ -17,11 +15,7 @@ public class TestHibernateTool {
 
 
 
-	@Test
-	public void testCurrentDirectory() {
-		CurrentDirectory.show();
-		assertTrue(true);
-	}
+
 	
 	@Test
 	public void testMatch(){
