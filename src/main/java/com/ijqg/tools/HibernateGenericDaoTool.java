@@ -108,6 +108,9 @@ public class HibernateGenericDaoTool {
 		String[] fileNames = getRootFile().list();
 		for (String fileName : fileNames) {
 			String domain = fileName.substring(0, fileName.indexOf("."));
+			if (domain.contains("Id")) {
+				continue;
+			}
 			domains.add(domain);
 		}
 
